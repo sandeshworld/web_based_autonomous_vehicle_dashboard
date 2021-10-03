@@ -27,3 +27,7 @@ The data made it's journey from:
 3. A node I have running that subscribes to the CAN_BUS topic, and then relays the information via UDP
 4. A python flask server that subscribes to the UDP messages and then publishes it over SocketIO
 5. This application subscribes to the SocketIO messages and then publishes it. 
+
+
+Here is an image of it running on a browser:
+![image](https://user-images.githubusercontent.com/28467603/135752379-993daf65-71b2-421a-b5ab-2523f531f844.png)
